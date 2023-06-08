@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Using Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- start Header -->
+    <header class="sticky-top opacity-75">
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <img src="images/logo2.png" alt="" width="50" />
+          <a class="navbar-brand mx-3" href="#" style="border-right: 1px solid goldenrod; padding-right: 20px">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">python</a>
+                    <a class="dropdown-item" href="#">java</a><a class="dropdown-item" href="#">Django</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-info mx-2" type="submit">
+                Search
+              </button>
+              <button class="btn btn-outline-info">login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end Header -->
+    <!--  start carousel -->
+    <main>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/1.jpeg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption bg-dark bg-opacity-25 w-25 m-auto">
+              <h1 class="text-white">Green</h1>
+              <a href="" class="btn btn-success text-white" target="_blank">view this ......
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/2.jpeg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption bg-dark bg-opacity-25 w-25 m-auto">
+              <h1 class="text-white">Green</h1>
+              <a href="" class="btn btn-success text-white" target="_blank">view this ......
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.jpeg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption bg-dark bg-opacity-25 w-25 m-auto">
+              <h1 class="text-white">Green</h1>
+              <a href="" class="btn btn-success text-white" target="_blank">view this ......
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/4.jpeg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption bg-dark bg-opacity-25 w-25 m-auto">
+              <h1 class="text-white">Green</h1>
+              <a href="" class="btn btn-success text-white" target="_blank">view this ......
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <!--  end carousel -->
+    <!-- start the rest -->
+    <div class="container-fluid p-0 bg-secondary m-0 overflow-hidden">
+      <!-- start welcome  -->
+      <section>
+        <div class="container-fluid bg-dark-subtle pb-2">
+          <div class="row">
+            <div class="h-100 p-5 text-bg-dark rounded-bottom-1">
+              <h2>Welcome &#128075;</h2>
+              <p>
+                Swap the background-color utility and add a `.text-*` color
+                utility to mix up the jumbotron look. Then, mix and match with
+                additional component themes and more.
+              </p>
+              <button class="btn btn-outline-light" type="button">
+                GIVE IT TRY &#127939;
+              </button>
+            </div>
+          </div>
+          <hr class="row border border-secondary border-1 opacity-50 mt-3" />
+        </div>
+      </section>
+      <!-- end  welcome-->
+      <!-- start Accordion Item -->
+      <section>
+        <h1 class="text-center text-white bg-secondary p-3 m-0">
+          GREEN Things
+        </h1>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-black">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-black">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                second item's accordion body. Let's imagine this being filled
+                with some actual content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-black">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                third item's accordion body. Nothing more exciting happening
+                here in terms of content, but just filling up the space to make
+                it look, at least at first glance, a bit more representative of
+                how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Accordion Item -->
+      <!-- start hr -->
+      <div class="bg-dark-subtle p-1">
+        <hr class="row border border-secondary border-1 opacity-50 mt-3" />
+      </div>
+      <!-- end hr -->
+      <!-- start Places to visit -->
+      <section>
+        <h1 class="text-center text-white bg-secondary p-3 m-0">
+          Places to visit
+        </h1>
+        <div class="bg-dark pt-5 px-4 pb-3">
+          <h4 class="text-light">
+            try to Choose from
+            <a href="#">here</a>
+          </h4>
+          <div class="btn btn-sm bg-info-subtle btn-outline-light">
+            &#128064;
+          </div>
+          <pre>
+            <code>
+              places : Moscow - Singapore - Sydney - Vienna - Shenzhen - Hong Kong
+            </code>
+          </pre>
+          <!-- <div
+            class="text-info text-center my-4 pb-5 ps-5 overflow-auto text-nowrap"
+            style="font-size: 18px"
+          >
+            places : Moscow - Singapore - Sydney - Vienna - Shenzhen - Hong Kong
+          </div> -->
+        </div>
+      </section>
+      <!-- end Places to visit -->
+      <!-- Hr -->
+      <div class="bg-dark-subtle p-1">
+        <hr class="row border border-secondary border-1 opacity-50 mt-3" />
+      </div>
+      <!-- end Hr -->
+      <!-- start ASK Google -->
+      <section>
+        <h1 class="text-center text-light bg-secondary p-3 m-0">ASK Google</h1>
+        <div class="bg-dark pt-5 px-4 pb-3">
+          <h4 class="text-light">
+            try the ask from
+            <a href="#">here</a>
+          </h4>
+          <div class="btn btn-sm bg-light btn-outline-light">&#127770;</div>
+          <pre>
+            <code class="text-primary">
+              Try to ask about the most beautiful green place in the world
+            </code>
+          </pre>
+          <!-- <div
+            class="text-info text-center my-4 pb-5 ps-5 overflow-auto text-nowrap"
+            style="font-size: 18px"
+          >
+            Try to ask about the most beautiful green place in the world
+          </div> -->
+        </div>
+      </section>
+      <!-- end ASK Google -->
+      <!-- Hr -->
+      <div class="bg-dark-subtle p-1">
+        <hr class="row border border-secondary border-1 opacity-50 mt-3" />
+      </div>
+      <!-- end Hr -->
+      <!-- start visit Us -->
+      <section>
+        <h1 class="text-center text-light bg-secondary p-3 m-0">visit Us</h1>
+        <div class="bg-dark pt-5 px-4 pb-3">
+          <h4 class="text-light">
+            try the Join other Site from
+            <a href="#">here</a>
+          </h4>
+          <div class="btn btn-sm btn-outline-light">&#9996; nice</div>
+          <pre>
+            <code class="text-primary">
+            Visit our website where you will find alot of nice images...
+            </code>
+          </pre>
+          <!-- <div
+            class="text-info text-center my-4 pb-5 ps-5 overflow-auto text-nowrap"
+            style="font-size: 18px"
+          >
+            Visit our website where you will find alot of nice images ,
+            recommended places to visit
+          </div> -->
+        </div>
+      </section>
+      <!-- end js -->
+      <!-- Hr -->
+      <div class="bg-dark-subtle p-1">
+        <hr class="row border border-secondary border-1 opacity-50 mt-3" />
+      </div>
+      <!-- end hr -->
+      <!-- start backgroung img -->
+      <section class="container-fluid">
+        <div class="row bg_img"></div>
+      </section>
+      <!-- end backgroung img -->
+      <!-- start code basic -->
+      <section>
+        <h1 class="text-center text-light bg-secondary p-3 m-0">Good basic</h1>
+        <div class="row px-4 justify-content-around mt-5">
+          <div class="card bg-dark mb-5" style="width: 18rem">
+            <img src="images/6.jpeg" class="card-img-top w-100" alt="..." style="height: 250px" />
+            <div class="card-body text-white">
+              <h5 class="card-title">Place</h5>
+              <p class="card-text text-white">Some quick example text</p>
+              <a href="#" class="btn btn-success text-white">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5" style="width: 18rem">
+            <img src="images/7.jpg" class="card-img-top w-100" alt="..." style="height: 250px" />
+            <div class="card-body text-white">
+              <h5 class="card-title">Place</h5>
+              <p class="card-text text-white">Some quick example text</p>
+              <a href="#" class="btn btn-success text-white">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5" style="width: 18rem">
+            <img src="images/8.jpeg" class="card-img-top w-100" alt="..." style="height: 250px" />
+            <div class="card-body text-white">
+              <h5 class="card-title">Place</h5>
+              <p class="card-text text-white">Some quick example text</p>
+              <a href="#" class="btn btn-success text-white">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5" style="width: 18rem">
+            <img src="images/9.jpeg" class="card-img-top w-100" alt="..." style="height: 250px" />
+            <div class="card-body text-white">
+              <h5 class="card-title">Place</h5>
+              <p class="card-text text-white">Some quick example text</p>
+              <a href="#" class="btn btn-success text-white">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5" style="width: 18rem">
+            <img src="images/10.jpeg" class="card-img-top w-100" alt="..." style="height: 250px" />
+            <div class="card-body text-white">
+              <h5 class="card-title">Place</h5>
+              <p class="card-text text-white">Some quick example text</p>
+              <a href="#" class="btn btn-success text-white">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5" style="width: 18rem">
+            <img src="images/11.jpeg" class="card-img-top w-100" alt="..." style="height: 250px" />
+            <div class="card-body text-white">
+              <h5 class="card-title">Place</h5>
+              <p class="card-text text-white">Some quick example text</p>
+              <a href="#" class="btn btn-success text-white">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5" style="width: 18rem">
+            <img src="images/2.jpeg" class="card-img-top w-100" alt="..." style="height: 250px" />
+            <div class="card-body text-white">
+              <h5 class="card-title">Place</h5>
+              <p class="card-text text-white">Some quick example text</p>
+              <a href="#" class="btn btn-success text-white">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end code basic -->
+      <!-- start bg img -->
+      <section>
+        <div class="row bg_img"></div>
+      </section>
+      <!-- end bg img -->
+      <!-- start hr -->
+      <div class="bg-info-subtle p-1">
+        <hr class="row border border-secondary border-1 opacity-50 mt-3" />
+      </div>
+      <!-- end hr -->
+      <!-- start Thanks For -->
+      <section>
+        <h1 class="text-center text-light bg-success p-3 m-0">Thanks For</h1>
+        <div class="row px-4 justify-content-center mt-5">
+          <div class="card bg-dark mb-5" style="width: 18rem">
+            <img src="images/backG.jpg" class="card-img-top w-100" alt="..." style="height: 300px" />
+            <div class="card-footer">
+              <h5 class="card-title text-white">Eng : Som3a</h5>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5 mx-5" style="width: 18rem">
+            <img src="images/eg.jpg" class="card-img-top w-100" alt="..." style="height: 300px" />
+            <div class="card-footer text-white">
+              <h5 class="card-title">EGYPT</h5>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5" style="width: 18rem">
+            <img src="images/backG.jpg" class="card-img-top w-100" alt="..." style="height: 300px" />
+            <div class="card-footer text-white">
+              <h5 class="card-title text-white">Last but not least Me :)</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Thanks For -->
+      <!-- start Hr -->
+      <div class="bg-dark p-1">
+        <hr class="row border border-success border-1 opacity-50 mt-3" />
+      </div>
+      <!-- end Hr -->
+      <!-- start Join Us -->
+      <section>
+        <h1 class="text-center text-light bg-secondary p-3 m-0">Join Us</h1>
+        <div class="row px-4 justify-content-center mt-5 gap-4">
+          <div class="card mb-5 text-center" style="width: 18rem; height: 150px">
+            <div class="card-body">
+              <h5 class="card-title text-success">Social Link</h5>
+              <p class="card-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-facebook"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg>
+              </p>
+              <a href="#" class="text-secondary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5 text-center" style="width: 18rem; height: 150px">
+            <div class="card-body">
+              <h5 class="card-title text-white">Social Link</h5>
+              <p class="card-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-facebook"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg>
+              </p>
+              <a href="#" class="text-secondary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mb-5 text-center" style="width: 18rem; height: 150px">
+            <div class="card-body text-white">
+              <h5 class="card-title">Social Link</h5>
+              <p class="card-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-facebook"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg>
+              </p>
+              <a href="#" class="text-secondary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card bg-dark mb-5 text-center" style="width: 18rem; height: 150px">
+            <div class="card-body">
+              <h5 class="card-title text-white">Social Link</h5>
+              <p class="card-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-facebook"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg>
+              </p>
+              <a href="#" class="text-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Join Us -->
+      <footer>
+        <div class="row justify-content-around bg-dark">
+          <div class="col-md-4 mb-4">
+            <div class="d-flex m-4 p-3 justify-content-center border border-start-0 border-end-0 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+              <span class="mx-3" style="font-size: 20px">Good Company</span>
+            </div>
+            <div class="row text-white text-center">
+              <p>Tel : 000-000-000</p>
+              <p>Address: EGYPT</p>
+              <p>Fax: 000-000-000</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="d-flex m-4 p-3 justify-content-center border border-start-0 border-end-0 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+              <span class="mx-3" style="font-size: 20px">Important links</span>
+            </div>
+            <div class="row text-white text-center">
+              <p class="text-decoration-underline text-secondary">Visit Us</p>
+              <p class="text-decoration-underline text-secondary">Take alook</p>
+              <p class="text-decoration-underline text-secondary">
+                Your health is more important
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="d-flex m-4 p-3 justify-content-center border border-start-0 border-end-0 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+              <span class="mx-3" style="font-size: 20px">Vision</span>
+            </div>
+            <div class="row text-white text-center">
+              <p>Serveices for all</p>
+              <p>Provide best serveices</p>
+              <p>you will be better than before</p>
+            </div>
+          </div>
+          <div class="row mb-4 text-secondary justify-content-center border p-4 m-3 text-center">
+            Copyright © 2023 Mohamed Ismail Abdelsalam,"Som3a" &#128513;. All
+            rights
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- end the rest -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>
